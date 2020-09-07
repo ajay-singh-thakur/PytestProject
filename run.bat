@@ -8,6 +8,6 @@ rem pytest -s -v -m "regression" --html=./Reports/ReportChrome.html testCases/ -
 rem pytest -s -v -m "ajay" --html=./Reports/ReportFirefox.html testCases/ --browser firefox
 rem pytest -s -v --html=Reports\Report.html testCases/ --browser firefox
 rem pytest -s -v -m "sanity and regression" --html=./Reports/ReportFirefox.html testCases/ --browser firefox
-python -m pytest -s -v -m "sanity or regression" --html=./Reports/ReportFirefox.html testCases/ --browser firefox
+pytest -s -v -m "sanity or regression" --html=./Reports/ReportFirefox.html testCases/ --browser firefox
 rem pytest -s -v -m "regression" --html=./Reports/ReportFirefox.html testCases/ --browser firefox
 pause
