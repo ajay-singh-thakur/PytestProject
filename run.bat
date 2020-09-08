@@ -4,7 +4,6 @@ rem pytest -s -v -m "sanity and regression" --html=./Reports/ReportChrome.html t
 rem pytest -s -v -m "sanity or regression" --html=./Reports/ReportChrome.html testCases/ --browser chrome
 python -m pytest -s -v -m "sanity or regression" --html=./Reports/ReportChrome.html testCases/test_login.py --browser chrome
 
-
 rem python -m pytest -s -v -m "sanity" --html=./Reports/ReportFirefox.html testCases/ --browser firefox
 rem pytest -s -v --html=Reports\Report.html testCases/ --browser firefox
 rem pytest -s -v -m "sanity and regression" --html=./Reports/ReportFirefox.html testCases/ --browser firefox
